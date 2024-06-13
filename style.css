@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .first h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.header .second ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header .second ul li {
+  margin: 0 15px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.header .second ul li:hover {
+  color: #007bff;
+}
+
+.header .second ul li:last-child i {
+  font-size: 20px;
+}
+
+.testy-food {
+  margin-left: 300px;
+  font-size: 34px;
+  margin-top: 12px;
+}
+.testy-food button {
+  font-size: 23px;
+  border-radius: 5px;
+  background-color: green;
+}
+.testy-food button:hover {
+  background-color: darkolivegreen;
+  transition: 0.5s;
+}
+.image1 img {
+  margin-left: 1100px;
+  margin-top: -150px;
+  width: 300px;
+  height: auto;
+  border-radius: 100px;
+}
+.tamator img {
+  width: 350px;
+  height: 400px;
+  margin-left: 12px;
+}
+.about-us {
+  margin-left: 500px;
+  margin-top: -335px;
+  font-size: 23px;
+}
+.about-us button {
+  font-size: 22px;
+  background-color: green;
+  border-radius: 5px;
+}
+.about-us button:hover {
+  background-color: #453f3f;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.offering {
+  margin-top: 123px;
+  text-align: center;
+}
+.all {
+  display: flex;
+  margin-top: 83px;
+  gap: 190px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.exelent img {
+  width: 100px;
+  height: 100px;
+}
+.fast img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
+.delivery img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
